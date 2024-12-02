@@ -7,6 +7,7 @@
 ![](erd.png)
 
 ## Setting Up Database
+Membuat table Departemen
 ```sql
 create sequence dep_id start 1;
 create table departemen(
@@ -14,6 +15,7 @@ create table departemen(
 	nama_dep character varying (30)
 )
 ```
+Membuat table Karyawan  
 ``` sql
 create sequence users_id start 1;
 create table karyawan(
@@ -22,7 +24,7 @@ create table karyawan(
 	id_dep character varying references departemen(id_dep)
 );
 ```
-
+Membuat fungsi Insert
 ``` sql
 create or replace function kr_insert
 (
@@ -54,6 +56,7 @@ end
 language plpgsql
 ```
 
+Membuat fungsi Select
 ``` sql
 create or replace function kr_select()
 returns table
@@ -74,6 +77,7 @@ end
 '
 ```
 
+Membuat fungsi Update
 ``` sql
 create or replace function kr_update
 (
@@ -100,6 +104,7 @@ end
 language plpgsql
 ```
 
+Membuat fungsi Delete
 ``` sql
 create or replace function kr_delete (_id_karyawan character varying)
 RETURNS int AS
@@ -118,6 +123,7 @@ end
 language plpgsql
 ```
 
+Menambahkan isi table Departemen
 ``` sql
 insert into departemen(id_dep, nama_dep) values
 ('HR', 'HR'),
