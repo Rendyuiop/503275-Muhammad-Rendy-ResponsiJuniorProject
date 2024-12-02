@@ -4,7 +4,7 @@
 | Muhammad Rendy | 22/503275/TK/53113 |
 
 ## Entity Relationship Diagram for Departement and Employee Database
-![](erd-responsi.png)
+![](erd.png)
 
 ## Setting Up Database
 ```sql
