@@ -1,0 +1,77 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\Rendy\\source\\repos\\503275-Muhammad Rendy-ResponsiJuniorProject\\503275-Muhammad Rendy-ResponsiJuniorProject\\503275-Muhammad Rendy-ResponsiJuniorProject.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\Rendy\\source\\repos\\503275-Muhammad Rendy-ResponsiJuniorProject\\503275-Muhammad Rendy-ResponsiJuniorProject\\503275-Muhammad Rendy-ResponsiJuniorProject.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Rendy\\source\\repos\\503275-Muhammad Rendy-ResponsiJuniorProject\\503275-Muhammad Rendy-ResponsiJuniorProject\\503275-Muhammad Rendy-ResponsiJuniorProject.csproj",
+        "projectName": "503275-Muhammad Rendy-ResponsiJuniorProject",
+        "projectPath": "C:\\Users\\Rendy\\source\\repos\\503275-Muhammad Rendy-ResponsiJuniorProject\\503275-Muhammad Rendy-ResponsiJuniorProject\\503275-Muhammad Rendy-ResponsiJuniorProject.csproj",
+        "packagesPath": "C:\\Users\\Rendy\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Rendy\\source\\repos\\503275-Muhammad Rendy-ResponsiJuniorProject\\503275-Muhammad Rendy-ResponsiJuniorProject\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Rendy\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0-windows"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0-windows7.0": {
+            "targetAlias": "net8.0-windows",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0-windows7.0": {
+          "targetAlias": "net8.0-windows",
+          "dependencies": {
+            "Npgsql": {
+              "target": "Package",
+              "version": "[9.0.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            },
+            "Microsoft.WindowsDesktop.App.WindowsForms": {
+              "privateAssets": "none"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "4oMvUirE/+w=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Rendy\\source\\repos\\503275-Muhammad Rendy-ResponsiJuniorProject\\503275-Muhammad Rendy-ResponsiJuniorProject\\503275-Muhammad Rendy-ResponsiJuniorProject.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Rendy\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\8.0.2\\microsoft.extensions.dependencyinjection.abstractions.8.0.2.nupkg.sha512",
+    "C:\\Users\\Rendy\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\8.0.2\\microsoft.extensions.logging.abstractions.8.0.2.nupkg.sha512",
+    "C:\\Users\\Rendy\\.nuget\\packages\\npgsql\\9.0.1\\npgsql.9.0.1.nupkg.sha512"
+  ],
+  "logs": []
+}
