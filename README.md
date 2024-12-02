@@ -1,7 +1,7 @@
 # Responsi  Junior Project
 |Nama | NIM|
 | --- | --- |
-| Muhammad Rendy | 22/503275/TK/53113 |
+| Muhammad Rendy | 22/503275/TK/54980 |
 
 ## Entity Relationship Diagram for Departement and Employee Database
 ![](erd.png)
