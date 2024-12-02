@@ -1,7 +1,7 @@
 # Responsi  Junior Project
 |Nama | NIM|
 | --- | --- |
-| Salwa Maharani | 22/503275/TK/53113 |
+| Muhammad Rendy | 22/503275/TK/53113 |
 
 ## Entity Relationship Diagram for Departement and Employee Database
 ![](erd-responsi.png)
